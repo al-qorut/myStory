@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    card_view:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:id="@+id/item_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/small_margin"
+        android:paddingEnd="@dimen/bigger_margin">
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_centerVertical="true"
+            android:alpha="0.6"
+            android:padding="@dimen/medium_margin"
+            android:src="@drawable/ic_place_holder" />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:text="@string/copyright"
+            android:maxLines="1"
+            android:textSize="@dimen/small_text_size"
+            android:paddingStart="@dimen/tiny_margin"
+            android:paddingTop="@dimen/small_margin"/>
+
+        <TextView
+            android:id="@+id/item_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/app_name"
+            android:paddingStart="@dimen/tiny_margin"
+            android:textSize="@dimen/smaller_text_size"/>
+
+        <TextView
+            android:id="@+id/item_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="@color/black"
+            android:text="@string/app_name"
+            android:textSize="@dimen/smaller_text_size"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
