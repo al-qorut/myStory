@@ -1,0 +1,23 @@
+<resources>
+    <dimen name="one_dp">1dp</dimen>
+    <dimen name="tiny_margin">2dp</dimen>
+    <dimen name="small_margin">4dp</dimen>
+    <dimen name="smaller_margin">6dp</dimen>
+    <dimen name="medium_margin">8dp</dimen>
+    <dimen name="normal_margin">12dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="bigger_margin">20dp</dimen>
+    <dimen name="big_margin">24dp</dimen>
+    <dimen name="section_margin">32dp</dimen>
+    <dimen name="size_story">250dp</dimen>
+    <dimen name="settings_label_start_margin">22dp</dimen>
+    <dimen name="small_text_size">10sp</dimen>
+    <dimen name="smaller_text_size">12sp</dimen>
+    <dimen name="judul_text_size">16sp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">0dp</dimen>
+</resources>

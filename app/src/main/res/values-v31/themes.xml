@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.MyStory" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/red_200</item>
+        <item name="colorSecondaryVariant">@color/red_700</item>
+        <item name="colorOnSecondary">@color/blue_700</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowSplashScreenBackground">@color/blue_200</item>
+        <!--        provide animatedly drawable-->
+        <item name="android:windowSplashScreenAnimatedIcon">
+            @drawable/image_signup
+        </item>
+        <!--        max duration is 1000ms-->
+        <item name="android:windowSplashScreenAnimationDuration">800</item>
+        <!--splash screen branding image-->
+        <item name="android:windowSplashScreenBrandingImage">@drawable/image_dicoding</item>
+        <!--        icon background color-->
+        <item name="android:windowSplashScreenIconBackgroundColor">#004d28</item>
+    </style>
+    <!--
+    Having themes.xml for v31 variant because @android:dimen/system_app_widget_background_radius
+     and @android:dimen/system_app_widget_internal_padding requires API level 31
+    -->
+    <style name="Theme.MyStory.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="appWidgetRadius">@android:dimen/system_app_widget_background_radius</item>
+        <item name="appWidgetInnerRadius">@android:dimen/system_app_widget_inner_radius</item>
+    </style>
+</resources>

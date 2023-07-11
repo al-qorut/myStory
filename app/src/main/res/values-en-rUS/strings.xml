@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">MyStory</string>
+    <string name="signup">SignUp</string>
+    <string name="login">Login</string>
+    <string name="message_welcome_page">Want to learn Android, iOS, Machine Learning, Cloud, Front-End, Back-End, and other IT fields? Just code it!</string>
+    <string name="title_welcome_page">Welcome to Dicoding!</string>
+    <string name="title_signup_page">Please complete your personal data below</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Please enter your data first</string>
+    <string name="title_login_page">Want to share your experience?</string>
+    <string name="name">Name</string>
+    <string name="copyright">© 2021 Dicoding</string>
+    <string name="message_main_page">Happy Learning in Dicoding.</string>
+    <string name="greeting">Hello %1$s, looking forward to sharing</string>
+    <string name="logout">Logout</string>
+
+    <!-- Error !-->
+    <string name="email_td_sesuai">Not format Email.. </string>
+    <string name="pass_td_sesuai">Password does not match </string>
+    <string name="masukan_email">Enter Email</string>
+    <string name="masukan_pass">Enter Password </string>
+    <string name="masukan_nama">Enter Nama</string>
+    <string name="login_gagal">Unable to login..</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="not_permisi">Not granted permission..</string>
+    <string name="img_td_ada">Please insert image file first..</string>
+    <string name="file_belum_ada">Image file does not exist</string>
+    <string name="masukan_desc">Enter your story</string>
+    <string name="eror_password">Less than 8 characters</string>
+    <string name="horee">Horee..</string>
+    <string name="account_sukses">The account has been created. Come on, login and share experiences.</string>
+    <string name="lanjut">Next</string>
+    <string name="please_wait">Wait in progress..</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="pertanyaan">What</string>
+    <string name="tanya_logout">Are you sure you want to logout?</string>
+    <string name="tambah_cerita">Would you like to post your story?</string>
+    <string name="mau_tambah_story">Would you like to add more stories?</string>
+    <string name="appwidget_text">LIST STORY</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="empty_text">No Data</string>
+    <string name="nomor_gambar">Click image %d</string>
+    <string name="data_kosong">Data kosong kembali ke halaman pertama</string>
+
+</resources>
